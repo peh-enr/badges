@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  position: absolute;
+  top: 300px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.umidity {
+  text-align: center;
+  border: 1px solid;
+  border-radius: 3px;
+  width: 50px;
+}
+
+.history {
+  position: relative;
+  left: 1px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 3px;
+}
+
+.location-tag {
+  text-align: center;
+  border: 1px solid;
+  border-radius: 3px;
+  width: 50px;
+  position: relative;
+  left: 2px;
+}
+
+.trash-can {
+  text-align: center;
+  border: 1px solid;
+  border-radius: 3px;
+}
